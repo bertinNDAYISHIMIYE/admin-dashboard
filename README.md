@@ -1,3 +1,10 @@
+### Final version
+![alt text](public/Screenshot1.png)
+![alt text](public/Screenshot2.png)
+
+
+
+
 #### ⚡️ Requirements
 
 - Install Node.js as [nodejs.org](https://nodejs.org)
@@ -15,10 +22,5 @@
 - [Avvvatars (fallback avatar)](https://avvvatars.com/)
 - [Next Auth (user auth)](https://authjs.dev)
 
-#### 🧠 Learn More
-
-- [Next Auth and Prisma Adapter Setup](https://authjs.dev/reference/adapter/prisma#prismaadapter)
-- [Protecting Routes with Next Auth](https://authjs.dev/guides/basics/securing-pages-and-api-routes#nextjs-middleware)
-- [getServerSession in Next Auth](https://next-auth.js.org/configuration/nextjs#getServerSession)
 
 Inspired by: https://github.com/vercel/nextjs-postgres-nextauth-tailwindcss-template
