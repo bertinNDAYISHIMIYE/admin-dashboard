@@ -1,6 +1,6 @@
 "use client";
 
-import { SearchIcon } from "lucide-react";
+import { RotateCwIcon, SearchIcon } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
 
@@ -47,6 +47,11 @@ export default function Search({ query }: Props) {
           defaultValue={query}
         />
       </div>
+      {isPending && (
+    <div className="absolute right-0 top-0 bottom-0 flex items-center justify-center">
+      <RotateCwIcon className="animate-spin -ml-1 mr-3 h-5 w-5 text-gray-700" />
     </div>
+  )}
+</div>
   );
 }
